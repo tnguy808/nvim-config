@@ -9,8 +9,10 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.number = true
 vim.opt.cursorline = true
+vim.opt.termguicolors = true
 
 -- Autocommands
+--
 
 -- Delete whitespace on save
 vim.api.nvim_create_autocmd("BufWritePre", {
