@@ -11,6 +11,8 @@
 * `fzf-lua`
 * `nvim-web-devicons`
 * `which-key.nvim`
+* `cyberdream.nvim`
+* `treesitter-context`
 
 ## Keybindings
 
@@ -54,3 +56,23 @@ Leader: `Space`
 | ------- | --------- |
 | `<C-j>` | Move down |
 | `<C-k>` | Move up   |
+
+### Window Navigation
+
+| Key     | Action    |
+| ------- | --------- |
+| `<C-j>` | Move down |
+| `<C-k>` | Move up   |
+| `<C-h>` | Move left |
+| `<C-l>` | Move right|
+
+### Splitting and Resizing
+
+| Key          | Action           |
+| ------------ | ---------------- |
+| `<leader>sv` | Split vertical   |
+| `<leader>sh` | Split horizontal |
+| `<C-down>`   | Move down        |
+| `<C-up>`     | Move up          |
+| `<C-left>`   | Move left        |
+| `<C-right>`  | Move right       |
